@@ -1,5 +1,3 @@
-find_package(GTest REQUIRED)
-
 function(add_sturdy_guide_test target source)
   add_executable(${target} ${source})
   target_link_libraries(${target} PRIVATE SturdyGuide::sturdy_guide) 
